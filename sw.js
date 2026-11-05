@@ -1,4 +1,4 @@
-const CACHE_NAME = 'autogrigorean-offline-v2';
+const CACHE_NAME = 'autogrigorean-offline-v3';
 const BASE = new URL('./', self.location.href);
 const APP_SHELL = [new URL('./', BASE).href, new URL('index.html', BASE).href, new URL('manifest.webmanifest', BASE).href, new URL('icon-192.png', BASE).href, new URL('icon-512.png', BASE).href];
 self.addEventListener('install', event => {
