@@ -1,16 +1,14 @@
 {
-  "id": "./",
-  "name": "AUTOGRIGOREAN",
+  "name": "AUTOGRIGOREAN • Evidența elevilor",
   "short_name": "AUTOGRIGOREAN",
-  "description": "Evidență elevi, sală, traseu și rezultate pentru școala auto.",
-  "lang": "ro-RO",
+  "description": "Evidență elevi școală de șoferi, inclusiv offline",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#eef3f9",
-  "theme_color": "#14243e",
-  "icons": [
-    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
-  ]
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#f4f7fc",
+  "theme_color": "#10243e",
+  "lang": "ro",
+  "icons": [{"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
 }
